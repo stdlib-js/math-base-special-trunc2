@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-trunc2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Round a numeric value to the nearest power of two toward zero.",
   "license": "Apache-2.0",
   "author": {
