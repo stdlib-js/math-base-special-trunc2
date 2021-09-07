@@ -113,6 +113,26 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/ceil2`][@stdlib/math/base/special/ceil2]: round a numeric value to the nearest power of two toward positive infinity.
+-   [`@stdlib/math/base/special/floor2`][@stdlib/math/base/special/floor2]: round a numeric value to the nearest power of two toward negative infinity.
+-   [`@stdlib/math/base/special/round2`][@stdlib/math/base/special/round2]: round a numeric value to the nearest power of two on a linear scale.
+-   [`@stdlib/math/base/special/trunc`][@stdlib/math/base/special/trunc]: round a double-precision floating-point number toward zero.
+-   [`@stdlib/math/base/special/trunc10`][@stdlib/math/base/special/trunc10]: round a numeric value to the nearest power of 10 toward zero.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -167,6 +187,20 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-trunc2/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2
+
+[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2
+
+[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2
+
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
+
+[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10
+
+<!-- </related-links> -->
 
 </section>
 
