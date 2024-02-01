@@ -35,14 +35,32 @@ limitations under the License.
 
 > Round a numeric value to the nearest power of two toward zero.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-trunc2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import trunc2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trunc2@deno/mod.js';
+var trunc2 = require( '@stdlib/math-base-special-trunc2' );
 ```
 
 #### trunc2( x )
@@ -98,8 +116,8 @@ v = trunc2( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import trunc2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-trunc2@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var trunc2 = require( '@stdlib/math-base-special-trunc2' );
 
 var x;
 var v;
@@ -143,7 +161,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -197,23 +215,26 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/math-base-special-trunc2/tree/deno
+[deno-readme]: https://github.com/stdlib-js/math-base-special-trunc2/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/math-base-special-trunc2/tree/umd
+[umd-readme]: https://github.com/stdlib-js/math-base-special-trunc2/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/math-base-special-trunc2/tree/esm
+[esm-readme]: https://github.com/stdlib-js/math-base-special-trunc2/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-trunc2/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-trunc2/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2/tree/deno
+[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2
 
-[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2/tree/deno
+[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2
 
-[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2/tree/deno
+[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2
 
-[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc/tree/deno
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
 
-[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10/tree/deno
+[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10
 
 <!-- </related-links> -->
 
