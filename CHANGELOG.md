@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-02-27)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`4039ae0`](https://github.com/stdlib-js/stdlib/commit/4039ae0c885e813edca9f53211d79b38e911b65a) - **bench:** update random value generation [(#5466)](https://github.com/stdlib-js/stdlib/pull/5466) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
